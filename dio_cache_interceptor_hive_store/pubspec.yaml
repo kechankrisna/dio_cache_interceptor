@@ -4,13 +4,14 @@ homepage: https://github.com/llfbandit/dio_cache_interceptor/tree/master/dio_cac
 version: 3.2.1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.17.0 <4.0.0"
 
 dependencies:
-  dio_cache_interceptor: ^3.3.0
+  dio_cache_interceptor: 
+    path : ../dio_cache_interceptor
 
   # https://pub.dev/packages/hive
-  hive: ^2.0.5
+  hive: ^3.0.0-dev ## active (hivedb.dev)
 
 # dependency_overrides:
 #   dio_cache_interceptor:
@@ -18,6 +19,6 @@ dependencies:
 
 dev_dependencies:
   # https://pub.dev/packages/lints
-  lints: ^2.0.1
+  lints: ^2.0.1 ## active
   # https://pub.dev/packages/test
-  test: ^1.23.1
+  test: ^1.23.1 ## active
